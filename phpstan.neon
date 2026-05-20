@@ -4,7 +4,9 @@ parameters:
         - src
         - tests
     excludePaths:
-        - tests/Fixtures
+        - tests/Fixtures (?)
     tmpDir: .phpstan
-    checkMissingIterableValueType: false
+    ignoreErrors:
+        -
+            identifier: missingType.iterableValue
     treatPhpDocTypesAsCertain: false

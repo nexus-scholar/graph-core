@@ -24,9 +24,9 @@
     "ext-dom": "*"
   },
   "require-dev": {
-    "pestphp/pest": "^2.0",
-    "phpstan/phpstan": "^1.10",
-    "friendsofphp/php-cs-fixer": "^3.40"
+    "friendsofphp/php-cs-fixer": "^3.87",
+    "pestphp/pest": "^4.0",
+    "phpstan/phpstan": "^2.1"
   },
   "autoload": {
     "psr-4": {
@@ -41,7 +41,7 @@
   "scripts": {
     "test": "vendor/bin/pest",
     "test:coverage": "vendor/bin/pest --coverage",
-    "analyse": "vendor/bin/phpstan analyse",
+    "analyse": "vendor/bin/phpstan analyse --memory-limit=512M",
     "format": "vendor/bin/php-cs-fixer fix",
     "format:check": "vendor/bin/php-cs-fixer fix --dry-run --diff"
   },

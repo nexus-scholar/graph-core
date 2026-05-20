@@ -12,6 +12,7 @@ $finder = Finder::create()
     ->ignoreVCS(true);
 
 return (new Config())
+    ->setUnsupportedPhpVersionAllowed(true)
     ->setRules([
         '@PSR12' => true,
         '@PHP82Migration' => true,
@@ -33,6 +34,7 @@ return (new Config())
         'concat_space' => ['spacing' => 'one'],
         'declare_equal_normalize' => true,
         'function_typehint_space' => true,
+        'line_ending' => false,
         'lowercase_cast' => true,
         'lowercase_static_reference' => true,
         'method_argument_space' => [
