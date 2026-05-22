@@ -40,7 +40,7 @@ final class GexfExporter implements ExporterInterface
         // Add meta information
         $meta = $dom->createElement('meta');
         $meta->setAttribute('lastmodifieddate', date('Y-m-d'));
-        $creator = $dom->createElement('creator', 'mbsoft/graph-core');
+        $creator = $dom->createElement('creator', 'nexus-scholar/graph-core');
         $meta->appendChild($creator);
         $gexf->appendChild($meta);
 

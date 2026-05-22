@@ -1,10 +1,10 @@
-# mbsoft/graph-core
+# nexus-scholar/graph-core
 
 [![PHP Version](https://img.shields.io/badge/php-%5E8.2-blue.svg)](https://php.net)
 [![License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](LICENSE)
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/mbsoft31/graph-core.svg?style=flat-square)](https://packagist.org/packages/mbsoft/graph-core)
-[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/mbsoft31/graph-core/ci.yml?branch=main&style=flat-square)](https://github.com/mbsoft31/graph-core/actions)
-[![Total Downloads](https://img.shields.io/packagist/dt/mbsoft31/graph-core.svg?style=flat-square)](https://packagist.org/packages/mbsoft31/graph-core)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/nexus-scholar/graph-core.svg?style=flat-square)](https://packagist.org/packages/nexus-scholar/graph-core)
+[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/nexus-scholar/graph-core/ci.yml?branch=main&style=flat-square)](https://github.com/nexus-scholar/graph-core/actions)
+[![Total Downloads](https://img.shields.io/packagist/dt/nexus-scholar/graph-core.svg?style=flat-square)](https://packagist.org/packages/nexus-scholar/graph-core)
 
 
 A lightweight, performant, and dependency-free graph data structure library for PHP. This library provides a clean, modern API for working with directed and undirected graphs, with support for node and edge attributes, subgraph views, and multiple export formats.
@@ -31,7 +31,7 @@ A lightweight, performant, and dependency-free graph data structure library for 
 Install via Composer:
 
 ```bash
-composer require mbsoft/graph-core
+composer require nexus-scholar/graph-core
 ```
 
 ## 🚀 Quick Start
@@ -324,7 +324,7 @@ This library is open-sourced software licensed under the [MIT license](LICENSE).
 
 ## 📮 Support
 
-For bugs and feature requests, please use the [GitHub issues page](https://github.com/mbsoft/graph-core/issues).
+For bugs and feature requests, please use the [GitHub issues page](https://github.com/nexus-scholar/graph-core/issues).
 
 ## 🔗 See Also
 

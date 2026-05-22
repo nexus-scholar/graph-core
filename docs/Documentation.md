@@ -1,6 +1,6 @@
-# Documentation & API Reference for `mbsoft31/graph-core`
+# Documentation & API Reference for `nexus-scholar/graph-core`
 
-Welcome to the official documentation for `mbsoft31/graph-core`. This guide provides everything you need to know to use the library effectively, from installation and basic usage to a detailed API reference.
+Welcome to the official documentation for `nexus-scholar/graph-core`. This guide provides everything you need to know to use the library effectively, from installation and basic usage to a detailed API reference.
 
 -----
 
@@ -11,7 +11,7 @@ Welcome to the official documentation for `mbsoft31/graph-core`. This guide prov
 Install the package via Composer:
 
 ```bash
-composer require mbsoft31/graph-core
+composer require nexus-scholar/graph-core
 ```
 
 ### Quick Example
