@@ -1,5 +1,5 @@
 {
-  "name": "mbsoft31/graph-core",
+  "name": "nexus-scholar/graph-core",
   "description": "A lightweight, performant, and dependency-free graph data structure library for PHP.",
   "type": "library",
   "license": "MIT",
@@ -18,10 +18,13 @@
     "graphml",
     "gexf"
   ],
-  "homepage": "https://github.com/mbsoft31/graph-core",
+  "homepage": "https://github.com/nexus-scholar/graph-core",
   "require": {
     "php": "^8.2",
     "ext-dom": "*"
+  },
+  "replace": {
+    "mbsoft31/graph-core": "self.version"
   },
   "require-dev": {
     "friendsofphp/php-cs-fixer": "^3.87",

@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Example usage of mbsoft/graph-core library
+ * Example usage of nexus-scholar/graph-core library
  *
  * This file demonstrates various features of the graph library including:
  * - Creating directed and undirected graphs
@@ -19,7 +19,7 @@ use Mbsoft\Graph\IO\CytoscapeJsonExporter;
 use Mbsoft\Graph\IO\GraphMLExporter;
 use Mbsoft\Graph\IO\GexfExporter;
 
-echo "=== mbsoft/graph-core Demo ===\n\n";
+echo "=== nexus-scholar/graph-core Demo ===\n\n";
 
 // -----------------------------------------------------------------------------
 // Example 1: Basic Graph Operations
